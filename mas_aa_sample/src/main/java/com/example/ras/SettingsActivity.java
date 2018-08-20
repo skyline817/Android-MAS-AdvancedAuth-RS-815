@@ -157,10 +157,11 @@ public class SettingsActivity extends AppCompatActivity {
 
 
 
-        locationList.add("DISABLED");
+//        locationList.add("DISABLED");
+        locationList.add("United States (ALLOW)");
         locationList.add("North Korea (DENY)");
         locationList.add("Nigeria (INCREASE AUTH)");
-        locationList.add("United States (ALLOW)");
+//        locationList.add("United States (ALLOW)");
         locationList.add("Canada (ALLOW)");
 
 

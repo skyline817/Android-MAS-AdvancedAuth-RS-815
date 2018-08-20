@@ -87,8 +87,9 @@
     <string name="enter_ca_otp_password">Enter CA Mobile OTP Password</string>
     <string name="unlock_with_fingerprint">Unlock With FingerPrint</string>
     <string name="contact_us">Contact Us</string>
-    <string name="branches_nearby">Branches NearBy</string>
-    <string name="atms_nearby">ATMs NearBy</string>
+    <!-- Branches NearBy & ATMs NearBy was removed  -->
+    <string name="branches_nearby"></string>
+    <string name="atms_nearby"></string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
@@ -191,7 +192,7 @@
 
     <!-- Strings related to navigation drawer -->
     <string name="lock_app">Lock App</string>
-    <string name="bill_payment">Bill Payment</string>
+    <string name="bill_payment">Mortgage Info</string>
     <string name="home_screen">Home Screen</string>
     <string name="login_screen">Login Screen</string>
     <string name="credential_list_screen">Credential List Screen</string>
@@ -371,7 +372,7 @@
     <string name="str_additional_parameters">List Of Parameters</string>
     <string name="str_additional_headers">List Of Headers</string>
     <string name="str_make_public">Make Public</string>
-    <string name="step_up_mechanism">Step-Up mechanism</string>
+    <string name="step_up_mechanism">Transaction Step-Up</string>
     <string name="app_theme">Themes</string>
     <string name="change_background_color">Change Background Color</string>
     <string name="change_header_color">Header color</string>

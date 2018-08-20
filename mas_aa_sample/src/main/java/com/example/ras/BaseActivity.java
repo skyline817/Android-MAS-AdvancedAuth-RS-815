@@ -95,7 +95,7 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
             lockApp = menu.findItem(R.id.lockAppi);
             fundTransferi = menu.findItem(R.id.fundTransferi);
             billPaymenti = menu.findItem(R.id.billPaymenti);
-            cardsi = menu.findItem(R.id.cardsi);
+//            cardsi = menu.findItem(R.id.cardsi);
             logini = menu.findItem(R.id.loginScreeni);
             homeScreeni = menu.findItem(R.id.home_screen1);
 
@@ -309,16 +309,18 @@ public class BaseActivity extends AppCompatActivity implements NavigationView.On
             ApplicationConstants.IS_FUND_TRANSFER = false;
             Intent intent = new Intent(this, FundTransferActivity.class);
             startActivity(intent);
-        } else if (id == R.id.cardsi) {
-            Intent intent = new Intent(this, CardsActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.branchesi) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(ApplicationConstants.BRANCHES_NEARBY_URL));
-            startActivity(browserIntent);
-        } else if (id == R.id.atmi) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(ApplicationConstants.ATM_NEARBY_URL));
-            startActivity(browserIntent);
         }
+//        else if (id == R.id.cardsi) {
+//            Intent intent = new Intent(this, CardsActivity.class);
+//            startActivity(intent);
+//        }
+            //        } else if (id == R.id.branchesi) {
+//            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(ApplicationConstants.BRANCHES_NEARBY_URL));
+//            startActivity(browserIntent);
+//        } else if (id == R.id.atmi) {
+//            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(ApplicationConstants.ATM_NEARBY_URL));
+//            startActivity(browserIntent);
+//        }
 
         try {
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

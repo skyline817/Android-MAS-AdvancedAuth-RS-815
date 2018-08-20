@@ -25,24 +25,24 @@
             android:icon="@mipmap/bill_payment"
             android:title="@string/bill_payment"
             android:enabled="false"/>
-        <item
-            android:id="@+id/cardsi"
-            android:icon="@mipmap/cards"
-            android:title="@string/cards"
-            android:enabled="false"/>
+        <!--<item-->
+            <!--android:id="@+id/cardsi"-->
+            <!--android:icon="@mipmap/cards"-->
+            <!--android:title="@string/cards"-->
+            <!--android:enabled="false"/>-->
         <item
             android:id="@+id/registerForStrongAuthi"
             android:icon="@mipmap/register_strong_auth_icon"
             android:title="@string/register" />
 
-        <item
-            android:id="@+id/branchesi"
-            android:icon="@mipmap/branches_icon"
-            android:title="@string/branches_nearby" />
-        <item
-            android:id="@+id/atmi"
-            android:icon="@mipmap/atm_icon"
-            android:title="@string/atm_nearby" />
+        <!--<item-->
+            <!--android:id="@+id/branchesi"-->
+            <!--android:icon="@mipmap/branches_icon"-->
+            <!--android:title="@string/branches_nearby" />-->
+        <!--<item-->
+            <!--android:id="@+id/atmi"-->
+            <!--android:icon="@mipmap/atm_icon"-->
+            <!--android:title="@string/atm_nearby" />-->
 
         <item
             android:id="@+id/settings"
