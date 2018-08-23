@@ -106,9 +106,9 @@
     <string name="transfer">Transfer</string>
 
     <!-- strings related to home screen -->
+    <string name="account_name">Hello,</string>
     <string name="account_no">Account No.</string>
-    <string name="account_name">Account Name</string>
-    <string name="branch">Branch</string>
+    <string name="branch">Your Branch</string>
     <string name="available_balance">Available Balance.</string>
 
     <!-- strings related to registration -->

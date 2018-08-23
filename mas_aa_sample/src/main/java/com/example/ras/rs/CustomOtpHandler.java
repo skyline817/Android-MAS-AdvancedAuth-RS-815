@@ -103,7 +103,8 @@ public class CustomOtpHandler extends MASOtpAuthenticationHandler {
     @Override
     public List<String> getChannels() {
         List<String> channels = new ArrayList<>();
-        channels.add("Email");
+//        channels.add("Email");
+//        Removed per Ras ROAD Show Request by Brian.
         channels.add("Phone");
         return channels;
     }

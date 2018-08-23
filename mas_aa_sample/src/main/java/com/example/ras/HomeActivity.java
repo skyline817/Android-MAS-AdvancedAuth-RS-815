@@ -91,14 +91,14 @@ public class HomeActivity extends BaseActivity {
 
                 acc_no_value_tv = (TextView) findViewById(R.id.acc_no_value_tv);
                 acc_no_value_tv.setText("XXXX XXXX XXXX 7890");
-                acc_no_value_tv.setTextSize(18);
+                acc_no_value_tv.setTextSize(14);
 
                 acc_name_value_tv = (TextView) findViewById(R.id.acc_name_value_tv);
 
                 try {
                     if (MASUser.getCurrentUser() != null && MASUser.getCurrentUser().getId() != null) {
-                       String username = MASUser.getCurrentUser().getId();
-//                        String username = MASUser.getCurrentUser().getName().getGivenName() + " " + MASUser.getCurrentUser().getName().getFamilyName();
+//                       String username = MASUser.getCurrentUser().getId();
+                        String username = MASUser.getCurrentUser().getName().getGivenName() + " " + MASUser.getCurrentUser().getName().getFamilyName();
                          username = username.substring(username.indexOf(':') + 1);
                         acc_name_value_tv.setText(username);
                     }
@@ -109,15 +109,15 @@ public class HomeActivity extends BaseActivity {
                     }
 
                 }
-                acc_name_value_tv.setTextSize(18);
+                acc_name_value_tv.setTextSize(14);
 
                 acc_branch_value_tv = (TextView) findViewById(R.id.acc_branch_name_tv);
                 acc_branch_value_tv.setText("Islandia");
-                acc_branch_value_tv.setTextSize(18);
+                acc_branch_value_tv.setTextSize(14);
 
                 acc_balance_tv = (TextView) findViewById(R.id.acc_balance_tv);
                 acc_balance_tv.setText("$"+ApplicationConstants.AVAILABLE_BALANCE);
-                acc_balance_tv.setTextSize(42);
+                acc_balance_tv.setTextSize(20);
 
             }
 
